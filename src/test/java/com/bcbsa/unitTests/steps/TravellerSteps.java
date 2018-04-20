@@ -5,6 +5,7 @@ import com.bcbsa.helper.Status;
 import net.thucydides.core.annotations.Step;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.Assert.assertEquals;
 
 
 public class TravellerSteps {
@@ -33,6 +34,7 @@ public class TravellerSteps {
 
     @Step
     public void traveller_should_have_a_status_of(Status expectedStatus) {
+        assertEquals(frequentFlyer.getStatus(), expectedStatus.getText());
         assertThat(frequentFlyer.getStatus()).isEqualTo(expectedStatus.getText());
     }
 }

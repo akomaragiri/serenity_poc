@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4149c539-96d0-49f3-b0c1-5c99d8146907" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/api/SampleRestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/FrequentFlyerStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/FrequentFlyerSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/frequent_flyer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/api/steps/CountrySearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/CountrySearchStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/search_countries.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bcbsa/api/SampleRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/api/CountriesSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +23,7 @@
       <file leaf-file-name="WhenCalculatingFrequentFlyerPoints.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/WhenCalculatingFrequentFlyerPoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
+            <state relative-caret-position="36">
               <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,74 +41,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TravellerSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java">
+      <file leaf-file-name="CountrySearchSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/api/steps/CountrySearchSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_countries.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_countries.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrequentFlyerSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/FrequentFlyerSteps.java">
+      <file leaf-file-name="CountrySearchStepDefinition.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/CountrySearchStepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="170">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleSearchSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/GoogleSearchSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrequentFlyerStepDefinition.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/FrequentFlyerStepDefinition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="serenity.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenity.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WhenSearchingOnGoogle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,17 +87,38 @@
       <file leaf-file-name="search_by_keyword.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_by_keyword.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state>
+              <caret selection-end-line="9" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchByKeywordStepDefinitions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/SearchByKeywordStepDefinitions.java">
+      <file leaf-file-name="CountriesSearchTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/api/CountriesSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="60">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Response.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.5/rest-assured-3.0.5.jar!/io/restassured/response/Response.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TravellerSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,6 +169,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/FrequentFlyerSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/frequent_flyer.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/FrequentFlyerStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/api/CountriesSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/CountrySearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/search_countries.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/api/steps/CountrySearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/CountrySearchStepDefinition.java" />
       </list>
     </option>
   </component>
@@ -296,7 +294,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
@@ -318,27 +338,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
-              <item name="unitTests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
-              <item name="unitTests" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -409,6 +408,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="CountriesSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenity_poc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bcbsa.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bcbsa.api" />
+      <option name="MAIN_CLASS_NAME" value="com.bcbsa.api.CountriesSearchTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="SearchByKeyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="serenity_poc" />
       <extension name="coverage">
@@ -446,29 +468,6 @@
       <option name="MAIN_CLASS_NAME" value="com.bcbsa.unitTests.WhenCalculatingFrequentFlyerPoints" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="WhenCalculatingFrequentFlyerPoints.shouldCalculatePointsBasedOnDistance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="serenity_poc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bcbsa.unitTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.bcbsa.unitTests" />
-      <option name="MAIN_CLASS_NAME" value="com.bcbsa.unitTests.WhenCalculatingFrequentFlyerPoints" />
-      <option name="METHOD_NAME" value="shouldCalculatePointsBasedOnDistance" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -540,19 +539,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.WhenCalculatingFrequentFlyerPoints.shouldCalculatePointsBasedOnDistance" />
       <item itemvalue="JUnit.WhenCalculatingFrequentFlyerPoints" />
       <item itemvalue="JUnit.SearchByKeyword" />
       <item itemvalue="JUnit.AcceptanceTests" />
       <item itemvalue="JUnit.WhenSearchingOnGoogle" />
+      <item itemvalue="JUnit.CountriesSearchTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AcceptanceTests" />
+        <item itemvalue="JUnit.CountriesSearchTest" />
         <item itemvalue="JUnit.WhenCalculatingFrequentFlyerPoints" />
         <item itemvalue="JUnit.WhenSearchingOnGoogle" />
         <item itemvalue="JUnit.SearchByKeyword" />
-        <item itemvalue="JUnit.WhenCalculatingFrequentFlyerPoints.shouldCalculatePointsBasedOnDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -581,22 +580,17 @@
       <option name="project" value="LOCAL" />
       <updated>1524246872719</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a new feature to demonstrate BDD without UI">
+      <created>1524251277328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524251277328</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AcceptanceTests - 2018.04.20 at 13h 46m 45s.xml">
-      <configuration name="AcceptanceTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AcceptanceTests - 2018.04.20 at 14h 23m 46s.xml">
-      <configuration name="AcceptanceTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AcceptanceTests - 2018.04.20 at 14h 27m 11s.xml">
-      <configuration name="AcceptanceTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AcceptanceTests - 2018.04.20 at 14h 29m 24s.xml">
-      <configuration name="AcceptanceTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AcceptanceTests - 2018.04.20 at 14h 32m 10s.xml">
       <configuration name="AcceptanceTests" configurationId="JUnit" />
     </history-entry>
@@ -615,9 +609,22 @@
     <history-entry file="AcceptanceTests - 2018.04.20 at 15h 00m 57s.xml">
       <configuration name="AcceptanceTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CountriesSearchTest - 2018.04.20 at 16h 47m 30s.xml">
+      <configuration name="CountriesSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AcceptanceTests - 2018.04.20 at 16h 59m 01s.xml">
+      <configuration name="AcceptanceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AcceptanceTests - 2018.04.20 at 17h 08m 10s.xml">
+      <configuration name="AcceptanceTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AcceptanceTests - 2018.04.20 at 17h 09m 03s.xml">
+      <configuration name="AcceptanceTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -628,11 +635,11 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.25625" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32920355" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.520354" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.520354" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32920355" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -655,7 +662,8 @@
     <MESSAGE value="initial code" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="re-arranged a few packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="re-arranged a few packages" />
+    <MESSAGE value="Added a new feature to demonstrate BDD without UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new feature to demonstrate BDD without UI" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -812,37 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/api/SampleRestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/AcceptanceTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/WhenCalculatingFrequentFlyerPoints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -866,39 +847,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_by_keyword.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/FrequentFlyerSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
             <element signature="e#507#508#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/frequent_flyer.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -922,11 +879,125 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/FrequentFlyerStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#834#835#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/frequent_flyer.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.5/rest-assured-3.0.5.jar!/io/restassured/response/Response.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/WhenCalculatingFrequentFlyerPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/api/CountriesSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_by_keyword.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/CountrySearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_countries.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/api/steps/CountrySearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="16" column="71" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/CountrySearchStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
           </folding>
         </state>
       </provider>
