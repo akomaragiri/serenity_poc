@@ -1,4 +1,4 @@
-package com.bcbsa.features.steps.serenity;
+package com.bcbsa.unitTests.steps;
 
 import com.bcbsa.bo.FrequentFlyer;
 import com.bcbsa.helper.Status;

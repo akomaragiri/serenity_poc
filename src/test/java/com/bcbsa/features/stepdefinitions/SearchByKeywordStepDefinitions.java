@@ -1,6 +1,6 @@
-package com.bcbsa.features.steps;
+package com.bcbsa.features.stepdefinitions;
 
-import com.bcbsa.features.steps.serenity.GoogleSearchSteps;
+import com.bcbsa.features.steps.GoogleSearchSteps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

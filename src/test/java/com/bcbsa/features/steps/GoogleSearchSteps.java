@@ -1,7 +1,7 @@
-package com.bcbsa.features.steps.serenity;
+package com.bcbsa.features.steps;
 
-import com.bcbsa.pages.GoogleHomePage;
-import com.bcbsa.pages.GoogleSearchResultsPage;
+import com.bcbsa.features.pages.GoogleHomePage;
+import com.bcbsa.features.pages.GoogleSearchResultsPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

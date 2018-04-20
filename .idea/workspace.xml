@@ -1,29 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4149c539-96d0-49f3-b0c1-5c99d8146907" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity_poc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bcbsa/bo/FrequentFlyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bcbsa/helper/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/AcceptanceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/SearchByKeywordStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/serenity/GoogleSearchSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/serenity/TravellerSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/pages/GoogleHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/pages/GoogleSearchResultsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTests/WhenCalculatingFrequentFlyerPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webdriver/WhenSearchingOnGoogle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/search_by_keyword.feature" afterDir="false" />
+    <list default="true" id="4149c539-96d0-49f3-b0c1-5c99d8146907" name="Default" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/SearchByKeywordStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/SearchByKeywordStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/serenity/GoogleSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/GoogleSearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/serenity/TravellerSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bcbsa/pages/GoogleHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/GoogleHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bcbsa/pages/GoogleSearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/GoogleSearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTests/WhenCalculatingFrequentFlyerPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/WhenCalculatingFrequentFlyerPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webdriver/WhenSearchingOnGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +26,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="992">
-              <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+            <state relative-caret-position="567">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -49,15 +36,15 @@
         <entry file="file://$PROJECT_DIR$/serenity.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhenCalculatingFrequentFlyerPoints.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/unitTests/WhenCalculatingFrequentFlyerPoints.java">
+      <file leaf-file-name="WhenCalculatingFrequentFlyerPoints.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/WhenCalculatingFrequentFlyerPoints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
+            <state relative-caret-position="126">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,11 +53,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhenSearchingOnGoogle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/webdriver/WhenSearchingOnGoogle.java">
+      <file leaf-file-name="TravellerSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhenSearchingOnGoogle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="GoogleHomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/pages/GoogleHomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/GoogleHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
               <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
@@ -90,26 +89,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleSearchSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/serenity/GoogleSearchSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SearchByKeywordStepDefinitions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/SearchByKeywordStepDefinitions.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/SearchByKeywordStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
@@ -120,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_by_keyword.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search_by_keyword.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/search_by_keyword.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -130,7 +111,7 @@
         </entry>
       </file>
       <file leaf-file-name="GoogleSearchResultsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/pages/GoogleSearchResultsPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/GoogleSearchResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
@@ -145,8 +126,8 @@
       <file leaf-file-name="AcceptanceTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/AcceptanceTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="119">
+              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bcbsa/bo/FrequentFlyer.java" />
         <option value="$PROJECT_DIR$/src/test/java/steprunners/SearchByKeyword.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/SearchByKeywordsStepDefinition.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/search_by_keyword.feature" />
         <option value="$PROJECT_DIR$/src/test/java/webdriver/WhenSearchingOnGoogle.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/GoogleSearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/SearchByKeywordStepDefinitions.java" />
@@ -188,8 +168,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/SearchByKeywordStepDefinitions.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/serenity/GoogleSearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/pages/GoogleSearchResultsPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/AcceptanceTests.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/search_by_keyword.feature" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/WhenCalculatingFrequentFlyerPoints.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
       </list>
     </option>
@@ -257,6 +240,51 @@
               <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
               <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -264,6 +292,9 @@
     </panes>
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bcbsa" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bcbsa.helper" />
     </key>
@@ -334,14 +365,14 @@
       <module name="serenity_poc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTests.*" />
+          <option name="PATTERN" value="com.bcbsa.unitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unitTests" />
-      <option name="MAIN_CLASS_NAME" value="unitTests.WhenCalculatingFrequentFlyerPoints" />
+      <option name="PACKAGE_NAME" value="com.bcbsa.unitTests" />
+      <option name="MAIN_CLASS_NAME" value="com.bcbsa.unitTests.WhenCalculatingFrequentFlyerPoints" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -357,14 +388,14 @@
       <module name="serenity_poc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTests.*" />
+          <option name="PATTERN" value="com.bcbsa.unitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="unitTests" />
-      <option name="MAIN_CLASS_NAME" value="unitTests.WhenCalculatingFrequentFlyerPoints" />
+      <option name="PACKAGE_NAME" value="com.bcbsa.unitTests" />
+      <option name="MAIN_CLASS_NAME" value="com.bcbsa.unitTests.WhenCalculatingFrequentFlyerPoints" />
       <option name="METHOD_NAME" value="shouldCalculatePointsBasedOnDistance" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -380,14 +411,14 @@
       <module name="serenity_poc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webdriver.*" />
+          <option name="PATTERN" value="com.bcbsa.webdriver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="webdriver" />
-      <option name="MAIN_CLASS_NAME" value="webdriver.WhenSearchingOnGoogle" />
+      <option name="PACKAGE_NAME" value="com.bcbsa.webdriver" />
+      <option name="MAIN_CLASS_NAME" value="com.bcbsa.webdriver.WhenSearchingOnGoogle" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -465,12 +496,17 @@
       <option name="presentableId" value="Default" />
       <updated>1524074471544</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1524242735421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524242735421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WhenCalculatingFrequentFlyerPoints_shouldCalculatePointsBasedOnDistance - 2018.04.20 at 08h 55m 25s.xml">
-      <configuration name="WhenCalculatingFrequentFlyerPoints.shouldCalculatePointsBasedOnDistance" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WhenCalculatingFrequentFlyerPoints - 2018.04.20 at 09h 14m 42s.xml">
       <configuration name="WhenCalculatingFrequentFlyerPoints" configurationId="JUnit" />
     </history-entry>
@@ -498,19 +534,22 @@
     <history-entry file="AcceptanceTests - 2018.04.20 at 11h 45m 55s.xml">
       <configuration name="AcceptanceTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AcceptanceTests - 2018.04.20 at 13h 46m 45s.xml">
+      <configuration name="AcceptanceTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.23344557" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.2318584" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.25625" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32920355" />
       <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.520354" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
@@ -533,6 +572,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="initial code" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -541,7 +589,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/webdriver/WhenSearchingOnGoogle.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -551,7 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unitTests/WhenCalculatingFrequentFlyerPoints.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/WhenCalculatingFrequentFlyerPoints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
@@ -561,7 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/serenity/TravellerSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
@@ -661,20 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/serenity/TravellerSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/GoogleSearchSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/serenity/GoogleSearchSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#560#561#0" expanded="true" />
@@ -687,7 +725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/pages/GoogleSearchResultsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/GoogleSearchResultsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
@@ -705,7 +743,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/pages/GoogleHomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/GoogleHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
@@ -715,10 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/AcceptanceTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/SearchByKeywordStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="323">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -727,42 +765,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+        <state relative-caret-position="567">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/steps/TravellerSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/unitTests/WhenCalculatingFrequentFlyerPoints.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/AcceptanceTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/webdriver/WhenSearchingOnGoogle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/SearchByKeywordStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        <state relative-caret-position="119">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -773,6 +801,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/unitTests/WhenCalculatingFrequentFlyerPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

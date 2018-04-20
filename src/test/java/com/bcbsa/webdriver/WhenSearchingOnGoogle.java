@@ -1,4 +1,4 @@
-package webdriver;
+package com.bcbsa.webdriver;
 
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.junit.runners.SerenityRunner;

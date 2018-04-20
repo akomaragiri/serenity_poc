@@ -1,6 +1,6 @@
-package unitTests;
+package com.bcbsa.unitTests;
 
-import com.bcbsa.features.steps.serenity.TravellerSteps;
+import com.bcbsa.unitTests.steps.TravellerSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Test;
