@@ -1,4 +1,4 @@
-package com.bcbsa.features.pages;
+package com.bcbsa.features.pages.com.google;
 
 import net.serenitybdd.core.pages.PageObject;
 

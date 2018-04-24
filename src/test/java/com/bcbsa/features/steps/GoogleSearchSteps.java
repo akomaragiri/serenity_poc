@@ -1,7 +1,7 @@
 package com.bcbsa.features.steps;
 
-import com.bcbsa.features.pages.GoogleHomePage;
-import com.bcbsa.features.pages.GoogleSearchResultsPage;
+import com.bcbsa.features.pages.com.google.GoogleHomePage;
+import com.bcbsa.features.pages.com.google.GoogleSearchResultsPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
