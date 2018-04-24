@@ -15,14 +15,14 @@ public class NotificationPageSteps {
 
     public void navigateToNotificationsPage() {
         myBlueLoginPage.open();
-        myBlueLoginPage.enterUserName("Sean3");
-        myBlueLoginPage.enterPassword("Sittest1!");
+        myBlueLoginPage.enterUserName("ASPEN");
+        myBlueLoginPage.enterPassword("Littestr#4");
         myBlueLoginPage.submitCredentials();
 
         stepUpAuthPage.clickContinueButton();
         stepUpAuthPage.clickVerifyYourDeviceAnotherWayLink();
         stepUpAuthPage.clickUseMyPinButton();
-        stepUpAuthPage.enterUserPin("6128");
+        stepUpAuthPage.enterUserPin("5622");
         stepUpAuthPage.clickVerifyButton();
         stepUpAuthPage.clickContinueButtonOnModal();
     }

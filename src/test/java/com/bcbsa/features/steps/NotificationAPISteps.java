@@ -59,20 +59,10 @@ public class NotificationAPISteps {
         notificationBody.setEventType("NOTIFICATION_EVENT");
         notificationBody.setEventDateTime(timeStamp);
         notificationBody.setSourceSystem("CHIPREWARDS");
-        notificationBody.setMemberID("13718190");
-        notificationBody.setContractID("R60522176");
+        notificationBody.setMemberID("14045622");
+        notificationBody.setContractID("R60378743");
         notificationBody.setSubType(subType);
         notificationBody.setExternalID(UUID.randomUUID().toString());
-
-//        String notificationBody = "{\n" +
-//                "\"eventType\":\"NOTIFICATION_EVENT\",\n" +
-//                "\"eventDateTime\": \"" + dateTime + "\",\n" +
-//                "\"sourceSystem\":\"CCTI\",\n" +
-//                "\"memberID\": \"13718190\",\n" +
-//                "\"contractID\":\"R60522176\",\n" +
-//                "\"subType\":\"" + subType + "\",\n" +
-//                "\"externalID\":\"" + subType + dateTime + "\"" + " \n" +
-//                "}\n";
 
         requestSpecBuilder.setBody(notificationBody);
     }
