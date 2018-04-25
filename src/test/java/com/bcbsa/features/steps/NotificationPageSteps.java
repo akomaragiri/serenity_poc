@@ -7,29 +7,44 @@ import com.bcbsa.helper.Notifications;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.junit.Assert;
 
+import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getPages;
+
 public class NotificationPageSteps {
 
     MyBlueLoginPage myBlueLoginPage;
     StepUpAuthPage stepUpAuthPage;
     LandingPage landingPage;
 
+    public MyBlueLoginPage getMyBlueLoginPage() {
+        return getPages().currentPageAt(MyBlueLoginPage.class);
+    }
+
+    public StepUpAuthPage getStepUpAuthPage() {
+        return getPages().currentPageAt(StepUpAuthPage.class);
+    }
+
+    public LandingPage getLandingPage() {
+        return getPages().currentPageAt(LandingPage.class);
+    }
+
     public void navigateToNotificationsPage() {
         myBlueLoginPage.open();
+
         myBlueLoginPage.enterUserName("ASPEN");
         myBlueLoginPage.enterPassword("Littestr#4");
         myBlueLoginPage.submitCredentials();
 
         stepUpAuthPage.clickContinueButton();
-        stepUpAuthPage.clickVerifyYourDeviceAnotherWayLink();
-        stepUpAuthPage.clickUseMyPinButton();
-        stepUpAuthPage.enterUserPin("5622");
-        stepUpAuthPage.clickVerifyButton();
-        stepUpAuthPage.clickContinueButtonOnModal();
+        getStepUpAuthPage().clickVerifyYourDeviceAnotherWayLink();
+        getStepUpAuthPage().clickUseMyPinButton();
+        getStepUpAuthPage().enterUserPin("5622");
+        getStepUpAuthPage().clickVerifyButton();
+        getStepUpAuthPage().clickContinueButtonOnModal();
     }
 
     public void openNotifications() {
         landingPage.clickOnNotNowLinkOnModal();
-        landingPage.hoverOnNotificationIcon();
+        getLandingPage().hoverOnNotificationIcon();
     }
 
     public void validateNotificationMessage(String subType) {

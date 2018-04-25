@@ -12,13 +12,13 @@ import java.util.List;
 @At(urls = {"#HOST/pilot/landingpage"})
 public class LandingPage extends PageObject {
 
-    @FindBy(css = "body > div.modal.fade.ng-scope.ng-isolate-scope.in > div > div > sms-collection-modal > div > div.sms-collection-footer > a.not-now")
+    @FindBy(css = "body > div.modal.fade.ng-scope.ng-isolate-scope.in > div > div > sms-collection-modal > div > div.sms-collection-footer > a.not-now", timeoutInSeconds = "15")
     WebElementFacade notNowLinkOnModal;
 
     @FindBy(css = "#Notification > a > span")
     WebElementFacade notificationIcon;
 
-    @FindBy(id = "NotificationsDropdown")
+    @FindBy(id = "NotificationsDropdown", timeoutInSeconds = "15")
     WebElementFacade notificationsDropDown;
 
     public void clickOnNotNowLinkOnModal() {

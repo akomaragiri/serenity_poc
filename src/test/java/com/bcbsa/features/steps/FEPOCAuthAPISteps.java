@@ -26,7 +26,6 @@ public class FEPOCAuthAPISteps {
         body.setUserType("Vendor");
         body.setUserName("bluestester01");
 
-        //requestSpecBuilder.setBody("{\"userType\":\"Vendor\", \"userName\":\"bluestester01\"}");
         requestSpecBuilder.setBody(body);
 
         response = SerenityRest.given().spec(requestSpecBuilder.build()).when().post(authAPI);
