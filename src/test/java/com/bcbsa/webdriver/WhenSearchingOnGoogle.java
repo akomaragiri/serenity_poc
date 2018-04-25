@@ -5,7 +5,6 @@ import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -22,7 +21,11 @@ public class WhenSearchingOnGoogle {
     public void shouldInstantiateAWebDriverInstanceForAWebTest() {
         driver.get("http://www.google.com");
 
-        driver.findElement(By.name("q")).sendKeys("firefly", Keys.ENTER);
+        driver.findElement(By.name("q")).sendKeys("firefly");
+
+        new WebDriverWait(driver, 5);
+
+        driver.findElement(By.name("btnK")).click();
 
         new WebDriverWait(driver, 5).until(titleContains("Google Search"));
 

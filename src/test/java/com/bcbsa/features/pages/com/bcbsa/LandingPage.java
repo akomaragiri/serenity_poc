@@ -8,11 +8,12 @@ import net.thucydides.core.annotations.At;
 import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @At(urls = {"#HOST/pilot/landingpage"})
 public class LandingPage extends PageObject {
 
-    @FindBy(css = "body > div.modal.fade.ng-scope.ng-isolate-scope.in > div > div > sms-collection-modal > div > div.sms-collection-footer > a.not-now", timeoutInSeconds = "15")
+    @FindBy(css = "body > div.modal.fade.ng-scope.ng-isolate-scope.in > div > div > sms-collection-modal > div > div.sms-collection-footer > a.not-now")
     WebElementFacade notNowLinkOnModal;
 
     @FindBy(css = "#Notification > a > span")
@@ -22,7 +23,7 @@ public class LandingPage extends PageObject {
     WebElementFacade notificationsDropDown;
 
     public void clickOnNotNowLinkOnModal() {
-        notNowLinkOnModal.waitUntilVisible();
+        withTimeoutOf(5, TimeUnit.SECONDS).waitForPresenceOf(By.cssSelector("body > div.modal.fade.ng-scope.ng-isolate-scope.in > div > div > sms-collection-modal > div > div.sms-collection-footer > a.not-now"));
         notNowLinkOnModal.click();
     }
 
