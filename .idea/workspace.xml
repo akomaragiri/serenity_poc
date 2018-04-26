@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4149c539-96d0-49f3-b0c1-5c99d8146907" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/com/bcbsa/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/com/bcbsa/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/com/bcbsa/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhenSearchingOnGoogle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +110,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/NotificationPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/steps/FEPOCAuthAPISteps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/com/google/GoogleHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/features/pages/com/bcbsa/LandingPage.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java" />
       </list>
     </option>
   </component>
@@ -211,7 +221,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="unitTests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
@@ -221,44 +231,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity_poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity_poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bcbsa" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="stepdefinitions" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524668717578</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="-- Added implicit waits">
+      <created>1524755955189</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524755955189</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -613,7 +593,8 @@
     <MESSAGE value="Changed the member login information" />
     <MESSAGE value="-- Added a chromedriver option to handle popul before running tests&#10;-- Other minor refactorings" />
     <MESSAGE value="-- Added waits" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Added waits" />
+    <MESSAGE value="-- Added implicit waits" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Added implicit waits" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -868,16 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/features/stepdefinitions/SearchByKeywordStepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -975,6 +946,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bcbsa/webdriver/WhenSearchingOnGoogle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

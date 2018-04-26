@@ -3,6 +3,7 @@ package com.bcbsa.webdriver;
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +18,7 @@ public class WhenSearchingOnGoogle {
     @Managed(driver = "chrome")
     WebDriver driver;
 
+    @Ignore
     @Test
     public void shouldInstantiateAWebDriverInstanceForAWebTest() {
         driver.get("http://www.google.com");
