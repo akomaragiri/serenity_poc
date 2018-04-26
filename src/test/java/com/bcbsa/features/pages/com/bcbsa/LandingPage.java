@@ -23,7 +23,7 @@ public class LandingPage extends PageObject {
     WebElementFacade notificationsDropDown;
 
     public void clickOnNotNowLinkOnModal() {
-        withTimeoutOf(5, TimeUnit.SECONDS).waitForPresenceOf(By.cssSelector("body > div.modal.fade.ng-scope.ng-isolate-scope.in > div > div > sms-collection-modal > div > div.sms-collection-footer > a.not-now"));
+        withTimeoutOf(15, TimeUnit.SECONDS).waitForPresenceOf(By.cssSelector("body > div.modal.fade.ng-scope.ng-isolate-scope.in > div > div > sms-collection-modal > div > div.sms-collection-footer > a.not-now"));
         notNowLinkOnModal.click();
     }
 
