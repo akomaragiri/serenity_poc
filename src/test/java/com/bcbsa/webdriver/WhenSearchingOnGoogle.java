@@ -23,11 +23,11 @@ public class WhenSearchingOnGoogle {
 
         driver.findElement(By.name("q")).sendKeys("firefly");
 
-        new WebDriverWait(driver, 5);
+        new WebDriverWait(driver, 15);
 
         driver.findElement(By.name("btnK")).click();
 
-        new WebDriverWait(driver, 5).until(titleContains("Google Search"));
+        new WebDriverWait(driver, 15).until(titleContains("Google Search"));
 
         assertThat(driver.getTitle()).isEqualTo("firefly - Google Search");
     }
