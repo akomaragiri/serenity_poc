@@ -33,8 +33,13 @@ public class LandingPage extends PageObject {
         actions.moveToElement(notificationIcon).build().perform();
     }
 
-    public List<WebElementFacade> getAllElementsContainingNotificationText() {
+    public List<WebElementFacade> getAllElementsContainingNotificationHeaderText() {
         notificationsDropDown.waitUntilVisible();
         return notificationsDropDown.thenFindAll(By.className("ntf-headline"));
+    }
+
+    public List<WebElementFacade> getAllElementsContainingNotificationBodyText() {
+        notificationsDropDown.waitUntilVisible();
+        return notificationsDropDown.thenFindAll(By.className("ntf-description"));
     }
 }

@@ -2,20 +2,21 @@ package com.bcbsa.helper;
 
 public enum Notifications {
 
-    A1CNotCompleted("A1C_2ND_HALF_TEST_NOT_COMPLTD", "It's time to submit another A1c test result");
+    A1CNotCompleted("A1C_2ND_HALF_TEST_NOT_COMPLTD", "It's time to submit another A1c test result"),
+    OrderShipped("ORDER_SHPD_CONS", "Shipping Confirmation");
 
     private String notificationSubType;
-    private String notificationMessage;
+    private String notificationHeaderText;
 
-    Notifications(String notificationSubType, String notificationMessage) {
+    Notifications(String notificationSubType, String notificationHeaderText) {
         this.notificationSubType = notificationSubType;
-        this.notificationMessage = notificationMessage;
+        this.notificationHeaderText = notificationHeaderText;
     }
 
-    public static String getNotificationMessageForSubType(String subType) {
+    public static String getNotificationHeaderTextForSubType(String subType) {
         for (Notifications notification : Notifications.values()) {
             if (notification.notificationSubType.equals(subType)) {
-                return notification.notificationMessage;
+                return notification.notificationHeaderText;
             }
         }
         return null;
@@ -25,7 +26,7 @@ public enum Notifications {
         return notificationSubType;
     }
 
-    public String getNotificationMessage() {
-        return notificationMessage;
+    public String getNotificationHeaderText() {
+        return notificationHeaderText;
     }
 }
