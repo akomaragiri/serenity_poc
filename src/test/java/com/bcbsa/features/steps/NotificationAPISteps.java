@@ -91,7 +91,7 @@ public class NotificationAPISteps {
 
         String timeStamp = getCurrentTimeStamp();
 
-        OrderShippedNotificationBody notificationBody = new OrderShippedNotificationBody();
+        NotificationAPIBody notificationBody = new NotificationAPIBody();
         notificationBody.setEventType("NOTIFICATION_EVENT");
         notificationBody.setEventDateTime(timeStamp);
         notificationBody.setSourceSystem("CAREMARK");

@@ -10,6 +10,8 @@ public class NotificationAPIBody {
     private String subType;
     private String externalID;
 
+    private AdditionalData additionalData;
+
     public String getEventType() {
         return eventType;
     }
@@ -64,5 +66,13 @@ public class NotificationAPIBody {
 
     public void setExternalID(String externalID) {
         this.externalID = externalID;
+    }
+
+    public AdditionalData getAdditionalData() {
+        return additionalData;
+    }
+
+    public void setAdditionalData(AdditionalData additionalData) {
+        this.additionalData = additionalData;
     }
 }

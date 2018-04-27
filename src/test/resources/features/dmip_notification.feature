@@ -1,6 +1,5 @@
 Feature: Unified Notification
 
-  @Ignored
   Scenario: Should see notification on the UI for A1C_2ND_HALF_TEST_NOT_COMPLTD sub type
     Given The contractId is 'R60378743', memberId is '14045622'
     When I trigger a 'A1C_2ND_HALF_TEST_NOT_COMPLTD' notification behind the scenes
